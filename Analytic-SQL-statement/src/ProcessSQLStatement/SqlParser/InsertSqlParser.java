@@ -1,7 +1,8 @@
 package ProcessSQLStatement.SqlParser;
 
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
-import ProcessSQLStatement.SqlSegment;
+import ProcessSQLStatement.SqlSegment.SegmentRegExps;
+import ProcessSQLStatement.SqlSegment.SqlSegment;
 /**
  * Created by CH on 2016/10/25.
  */
@@ -22,9 +23,9 @@ public class InsertSqlParser extends BaseSingleSqlParser {
 	@Override
 	protected void initializeSegments() {
 		//insert into .. (...) values(...);
-	    segments.add(new SqlSegment("(insert into)(.+)([(])"));
-	    segments.add(new SqlSegment("([(])(.+)([)] values)"));
-	    segments.add(new SqlSegment("([)] values [(])(.+)([)])"));
+		for(String regExp : SegmentRegExps.insertRegExps){//InsertSqlParser的正则表达式初始化
+			segments.add(new SqlSegment(regExp));
+		}
 	}
 	@Override
 	public void Deal(String start, String body, String end) {

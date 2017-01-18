@@ -3,7 +3,8 @@ package ProcessSQLStatement.SqlParser;
 
 import ProcessSQLStatement.SingleSqlParserFactory;
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
-import ProcessSQLStatement.SqlSegment;
+import ProcessSQLStatement.SqlSegment.SegmentRegExps;
+import ProcessSQLStatement.SqlSegment.SqlSegment;
 /**
  * Created by CH on 2016/10/25.
  */
@@ -25,7 +26,9 @@ public class InsertSelectSqlParser extends BaseSingleSqlParser {
 	protected void initializeSegments() {
 		//insert into .. select ..;
 		//INSERT INTO Store_Information (store_name, Sales, Date) SELECT store_name, Sales, Date FROM Sales_Information WHERE Year(Date) = 1998  ";
-		segments.add(new SqlSegment("(insert into)(.+)(select)"));
+		for(String regExp : SegmentRegExps.insertSelectRegExps){//InsertSelectSqlParser的正则表达式初始化
+			segments.add(new SqlSegment(regExp));
+		}
 	}
 	
 	@Override

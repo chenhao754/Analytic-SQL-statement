@@ -2,7 +2,8 @@ package ProcessSQLStatement.SqlParser;
 
 
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
-import ProcessSQLStatement.SqlSegment;
+import ProcessSQLStatement.SqlSegment.SegmentRegExps;
+import ProcessSQLStatement.SqlSegment.SqlSegment;
 /**
  * Created by CH on 2016/10/25.
  */
@@ -23,7 +24,9 @@ public class DropSqlParser extends BaseSingleSqlParser {
     @Override
     protected void initializeSegments() {
         //drop table .. ;
-        segments.add(new SqlSegment("(drop table)(.+)(;|ENDOFSQL)"));
+        for(String regExp : SegmentRegExps.dropRegExps){//DropSqlParser的正则表达式初始化
+            segments.add(new SqlSegment(regExp));
+        }
     }
 
     @Override

@@ -1,7 +1,8 @@
 package ProcessSQLStatement.SqlParser;
 
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
-import ProcessSQLStatement.SqlSegment;
+import ProcessSQLStatement.SqlSegment.SegmentRegExps;
+import ProcessSQLStatement.SqlSegment.SqlSegment;
 /**
  * Created by CH on 2016/10/25.
  */
@@ -22,9 +23,9 @@ public class UpdateSqlParser extends BaseSingleSqlParser {
 	@Override
 	protected void initializeSegments() {
 		//update ... set ... where ... ;
-	    segments.add(new SqlSegment("(update)(.+)(set)"));
-	    segments.add(new SqlSegment("(set)(.+)(where|;|ENDOFSQL)"));
-	    segments.add(new SqlSegment("(where)(.+)(;|ENDOFSQL)"));
+		for(String regExp : SegmentRegExps.updateRegExps){//UpdateSqlParser的正则表达式初始化
+			segments.add(new SqlSegment(regExp));
+		}
 	}
 	@Override
 	public void Deal(String start, String body, String end) {

@@ -14,8 +14,48 @@ public class SQLObject {
 	public String typeName;	//操作名
 	public String field;		//操作的字段
 	public HashMap<String, String> condition;	//条件
+
+	public ArrayList<SQLObject> getNext() {
+		return next;
+	}
+
+	public void setNext(ArrayList<SQLObject> next) {
+		this.next = next;
+	}
+
+	public String getTableName() {
+		return tableName;
+	}
+
+	public void setTableName(String tableName) {
+		this.tableName = tableName.trim();
+	}
+
+	public String getTypeName() {
+		return typeName;
+	}
+
+	public void setTypeName(String typeName) {
+		this.typeName = typeName.trim();
+	}
+
+	public String getField() {
+		return field;
+	}
+
+	public void setField(String field) {
+		this.field = field.trim();
+	}
+
+	public HashMap<String, String> getCondition() {
+		return condition;
+	}
+
+	public void setCondition(HashMap<String, String> condition) {
+		this.condition = condition;
+	}
+
 	public SQLObject(){
-		next = null;
 		tableName = null;
 		typeName = null;
 		field = null;

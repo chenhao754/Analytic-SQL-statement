@@ -21,7 +21,7 @@ public class Layer {
     public SQLObject nesting(String originalSql, String sql){
         SQLObject sqlObjectObj;
         int i = 0, j = 0;   //i：第一个(的下标   j：与i对应的)下标
-        ArrayList<BigInteger> temp = new ArrayList<BigInteger>();   //暂时存放嵌套中的语句
+        ArrayList<BigInteger> temp = new ArrayList<BigInteger>();   //暂时存放加密后的嵌套中的语句
         for(i = 0; i<sql.length(); i++){    //判断嵌套语句
             if (sql.charAt(i) == '(') {     //从i开始判断，当i为(时
                 int num = 1;    //判断i对应的j的位置，如果嵌套中还有嵌套，则第一个)不是i所对应的

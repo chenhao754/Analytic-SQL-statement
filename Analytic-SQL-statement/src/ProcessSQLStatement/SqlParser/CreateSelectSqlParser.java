@@ -3,7 +3,8 @@ package ProcessSQLStatement.SqlParser;
 
 import ProcessSQLStatement.SingleSqlParserFactory;
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
-import ProcessSQLStatement.SqlSegment;
+import ProcessSQLStatement.SqlSegment.SegmentRegExps;
+import ProcessSQLStatement.SqlSegment.SqlSegment;
 
 /**
  * Created by CH on 2016/10/25.
@@ -25,7 +26,9 @@ public class CreateSelectSqlParser extends BaseSingleSqlParser {
     @Override
     protected void initializeSegments() {
         //create table .. as|select ..;
-        segments.add(new SqlSegment("(create table)(.+)(as|select)"));
+        for(String regExp : SegmentRegExps.createSelectRegExps){//CreateSelectSqlParser的正则表达式初始化
+            segments.add(new SqlSegment(regExp));
+        }
     }
 
     @Override

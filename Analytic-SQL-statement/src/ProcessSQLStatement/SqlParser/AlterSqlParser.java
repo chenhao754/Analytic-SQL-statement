@@ -1,7 +1,8 @@
 package ProcessSQLStatement.SqlParser;
 
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
-import ProcessSQLStatement.SqlSegment;
+import ProcessSQLStatement.SqlSegment.SegmentRegExps;
+import ProcessSQLStatement.SqlSegment.SqlSegment;
 
 /**
  * Created by CH on 2016/10/25.
@@ -21,17 +22,9 @@ public class AlterSqlParser extends BaseSingleSqlParser {
     @Override
     protected void initializeSegments() {
         //alter table .. add|drop|change .. ;
-        segments.add(new SqlSegment("(alter table)(.+)(add)"));
-        segments.add(new SqlSegment("(add)(.+)(;|ENDOFSQL)"));
-
-        segments.add(new SqlSegment("(alter table)(.+)(drop)"));
-        segments.add(new SqlSegment("(drop)(.+)(;|ENDOFSQL)"));
-
-        segments.add(new SqlSegment("(alter table)(.+)(change)"));
-        segments.add(new SqlSegment("(change)(.+)(;|ENDOFSQL)"));
-
-        segments.add(new SqlSegment("(alter table)(.+)(modify)"));
-        segments.add(new SqlSegment("(modify)(.+)(;|ENDOFSQL)"));
+        for(String regExp : SegmentRegExps.alterRegExps){//AlterSqlParser的正则表达式初始化
+            segments.add(new SqlSegment(regExp));
+        }
     }
 
     @Override

@@ -1,7 +1,8 @@
 package ProcessSQLStatement.SqlParser;
 
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
-import ProcessSQLStatement.SqlSegment;
+import ProcessSQLStatement.SqlSegment.SegmentRegExps;
+import ProcessSQLStatement.SqlSegment.SqlSegment;
 /**
  * Created by CH on 2016/10/25.
  */
@@ -23,41 +24,9 @@ public class SelectSqlParser extends BaseSingleSqlParser {
 	protected void initializeSegments() {
 		//select .. from .. where .. group by .. having .. order by..limit..
 		//中间不隔关键词
-		segments.add(new SqlSegment("(select distinct)(.+)(from)"));
-	    segments.add(new SqlSegment("(select)(.+)(from)"));
-	    segments.add(new SqlSegment("(from)(.+)(where)"));
-	    segments.add(new SqlSegment("(where)(.+)(group by)"));
-	    segments.add(new SqlSegment("(group by)(.+)(having)"));
-	    segments.add(new SqlSegment("(having)(.+)(order by)"));
-		segments.add(new SqlSegment("(order by)(.+)(limit)"));
-	    //中间隔一个关键词
-	    segments.add(new SqlSegment("(from)(.+)(group by)"));
-	    segments.add(new SqlSegment("(where)(.+)(having)"));
-	    segments.add(new SqlSegment("(group by)(.+)(order by)"));
-		segments.add(new SqlSegment("(having)(.+)(limit)"));
-	    //中间隔两个关键词
-	    segments.add(new SqlSegment("(from)(.+)(having)"));
-	    segments.add(new SqlSegment("(where)(.+)(order by)"));
-		segments.add(new SqlSegment("(group by)(.+)(limit)"));
-	    //中间隔三个关键词
-	    segments.add(new SqlSegment("(from)(.+)(order by)"));
-		segments.add(new SqlSegment("(where)(.+)(limit)"));
-		//中间隔四个关键词
-		segments.add(new SqlSegment("(from)(.+)(limit)"));
-	    //结尾
-		segments.add(new SqlSegment("(select)(.+)(;|ENDOFSQL)"));
-		segments.add(new SqlSegment("(from)(.+)(;|ENDOFSQL)"));
-		segments.add(new SqlSegment("(where)(.+)(;|ENDOFSQL)"));
-	    segments.add(new SqlSegment("(order by)(.+)(;|ENDOFSQL)"));
-	    segments.add(new SqlSegment("(having)(.+)(;|ENDOFSQL)"));
-	    segments.add(new SqlSegment("(group by)(.+)(;|ENDOFSQL)"));
-		segments.add(new SqlSegment("(limit)(.+)(;|ENDOFSQL)"));
-
-	    /*
-	    segments.add(new SqlSegment("(from)(.+)( where | on | having | group by | order by | ENDOFSQL)"));
-	    segments.add(new SqlSegment("(where|on|having)(.+)( group by | order by | ENDOFSQL)"));
-	    segments.add(new SqlSegment("(group by)(.+)( order by| ENDOFSQL)"));
-	    segments.add(new SqlSegment("(order by)(.+)( ENDOFSQL)"));*/
+		for(String regExp : SegmentRegExps.selectRegExps){//selectSqlParser的正则表达式初始化
+			segments.add(new SqlSegment(regExp));
+		}
 	}
 	@Override
 	public void Deal(String start, String body, String end) {

@@ -2,7 +2,8 @@ package ProcessSQLStatement.SqlParser;
 
 import ProcessSQLStatement.SQLObject;
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
-import ProcessSQLStatement.SqlSegment;
+import ProcessSQLStatement.SqlSegment.SegmentRegExps;
+import ProcessSQLStatement.SqlSegment.SqlSegment;
 
 
 /**
@@ -26,11 +27,9 @@ public class CreateSqlParser extends BaseSingleSqlParser {
 	protected void initializeSegments() {
 		// TODO Auto-generated method stub
 		//create table .. like|(...)
-		segments.add(new SqlSegment("(create table)(.+)(like)"));
-		segments.add(new SqlSegment("(like)(.+)(;|ENDOFSQL)"));
-
-		segments.add(new SqlSegment("(create table)(.+)([(])"));
-	    segments.add(new SqlSegment("([(])(.+)(;|ENDOFSQL)"));
+		for(String regExp : SegmentRegExps.createRegExps){//CreateSqlParser的正则表达式初始化
+			segments.add(new SqlSegment(regExp));
+		}
 	}
 
 	@Override
