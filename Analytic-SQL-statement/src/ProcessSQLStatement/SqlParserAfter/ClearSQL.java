@@ -10,9 +10,7 @@ import java.util.ArrayList;
 public class ClearSQL {
 
     public void Clear(SQLObject sqlObject){
-        if(sqlObject.next != null){
-            Clear(sqlObject.next);
-        }
+
     }
     //field1= a.id      field2= tablename as a  Symbol=分割符号
     public static void DealRemoveRename(StringBuffer field1,StringBuffer field2,String Symbol){

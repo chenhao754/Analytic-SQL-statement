@@ -73,6 +73,11 @@ public class SegmentRegExps {
             "([(])(.+)([)] values)",
             "([)] values [(])(.+)([)])",
     };
+    //UnionSqlParser的正则分片表达式
+    public static String[] unionRegExps = {
+            "(.*)(union all)(.*)",
+            "(.*)(union)(.*)",
+    };
     //SelectSqlParser的正则分片表达式
     public static String[] selectRegExps = {
             "(select distinct)(.+)(from)",

@@ -11,7 +11,10 @@ import java.util.regex.Pattern;
 public class SingleSqlParserFactory {
 	public static BaseSingleSqlParser generateParser(String originalSql, String processedSql)
 	{//区分sql语句类型
-		if(SqlParserUtil.contains(processedSql,"(alter)")){
+		if(SqlParserUtil.contains(processedSql,"union") || SqlParserUtil.contains(processedSql,"union all")){
+			return new UnionSqlParser(originalSql,processedSql);
+		}
+		else if(SqlParserUtil.contains(processedSql,"(alter)")){
 			return new AlterSqlParser(originalSql,processedSql);
 		}
 		else if(SqlParserUtil.contains(processedSql,"(drop table)(.+)(ENDOFSQL)")){
