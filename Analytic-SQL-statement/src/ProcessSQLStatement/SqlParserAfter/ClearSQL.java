@@ -1,6 +1,6 @@
 package ProcessSQLStatement.SqlParserAfter;
 
-import ProcessSQLStatement.SQLObject;
+import ProcessSQLStatement.SQLObject.SQLObject;
 
 import java.util.ArrayList;
 

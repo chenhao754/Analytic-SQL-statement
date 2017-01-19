@@ -1,7 +1,7 @@
 package ProcessSQLStatement.SqlParser;
 
 
-import ProcessSQLStatement.SingleSqlParserFactory;
+import ProcessSQLStatement.SqlParserFactory.SingleSqlParserFactory;
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
 import ProcessSQLStatement.SqlSegment.SegmentRegExps;
 import ProcessSQLStatement.SqlSegment.SqlSegment;

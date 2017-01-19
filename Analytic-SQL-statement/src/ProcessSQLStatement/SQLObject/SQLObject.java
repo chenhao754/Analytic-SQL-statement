@@ -1,4 +1,4 @@
-package ProcessSQLStatement;
+package ProcessSQLStatement.SQLObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;

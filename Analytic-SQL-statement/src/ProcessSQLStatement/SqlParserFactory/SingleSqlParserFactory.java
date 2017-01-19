@@ -1,10 +1,9 @@
-package ProcessSQLStatement;
+package ProcessSQLStatement.SqlParserFactory;
 
 import ProcessSQLStatement.SqlParser.*;
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
+import ProcessSQLStatement.SqlParserBefore.SqlParserUtil;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 /**
  * Created by CH on 2016/10/25.
  */

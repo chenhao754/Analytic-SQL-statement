@@ -1,7 +1,7 @@
-package ProcessSQLStatement;
+package ProcessSQLStatement.SqlParserBefore;
 
 
-import ProcessSQLStatement.SqlParserBefore.Layer;
+import ProcessSQLStatement.SQLObject.SQLObject;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

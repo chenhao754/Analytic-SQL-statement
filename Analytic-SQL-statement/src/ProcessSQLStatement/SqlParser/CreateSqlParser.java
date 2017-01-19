@@ -1,6 +1,6 @@
 package ProcessSQLStatement.SqlParser;
 
-import ProcessSQLStatement.SQLObject;
+import ProcessSQLStatement.SQLObject.SQLObject;
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
 import ProcessSQLStatement.SqlSegment.SegmentRegExps;
 import ProcessSQLStatement.SqlSegment.SqlSegment;

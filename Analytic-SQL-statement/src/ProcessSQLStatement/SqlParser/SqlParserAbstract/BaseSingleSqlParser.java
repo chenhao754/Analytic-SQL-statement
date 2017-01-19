@@ -1,7 +1,7 @@
 package ProcessSQLStatement.SqlParser.SqlParserAbstract;
 
 
-import ProcessSQLStatement.SQLObject;
+import ProcessSQLStatement.SQLObject.SQLObject;
 import ProcessSQLStatement.SqlSegment.SqlSegment;
 
 import java.util.ArrayList;

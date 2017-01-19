@@ -1,7 +1,7 @@
 package ProcessSQLStatement.SqlParserBefore;
 
-import ProcessSQLStatement.SQLObject;
-import ProcessSQLStatement.SingleSqlParserFactory;
+import ProcessSQLStatement.SQLObject.SQLObject;
+import ProcessSQLStatement.SqlParserFactory.SingleSqlParserFactory;
 
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;

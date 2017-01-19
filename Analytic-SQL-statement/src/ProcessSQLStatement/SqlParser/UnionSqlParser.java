@@ -1,14 +1,12 @@
 package ProcessSQLStatement.SqlParser;
 
-import ProcessSQLStatement.SQLObject;
-import ProcessSQLStatement.SingleSqlParserFactory;
+import ProcessSQLStatement.SQLObject.SQLObject;
+import ProcessSQLStatement.SqlParserFactory.SingleSqlParserFactory;
 import ProcessSQLStatement.SqlParser.SqlParserAbstract.BaseSingleSqlParser;
 import ProcessSQLStatement.SqlSegment.SegmentRegExps;
 import ProcessSQLStatement.SqlSegment.SqlSegment;
 
-import java.util.AbstractCollection;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by CH on 2017/1/19.
