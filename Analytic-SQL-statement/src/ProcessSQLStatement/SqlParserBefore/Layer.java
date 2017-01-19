@@ -48,7 +48,7 @@ public class Layer {
                 }
             }
         }
-        sqlObjectObj = SingleSqlParserFactory.generateParser(originalSql,sql).getSQLObj();    //处理加密后的整条语句
+        sqlObjectObj = SingleSqlParserFactory.generateParser(originalSql,sql).getDealResult();    //处理加密后的整条语句
 
         //解密TableName中出现的嵌套
         replayTableName(sqlObjectObj,temp);

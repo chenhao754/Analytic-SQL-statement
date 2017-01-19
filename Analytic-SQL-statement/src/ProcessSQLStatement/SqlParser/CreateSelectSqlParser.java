@@ -48,7 +48,7 @@ public class CreateSelectSqlParser extends BaseSingleSqlParser {
                 if(sqlObjectObj.next != null){
                     //将sql语句中的create table去掉，则再次解析时从select开始
                     processedSql = processedSql.replace("create table","");
-                    sqlObjectObj.next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql).getSQLObj());
+                    sqlObjectObj.next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql).getDealResult());
                 }
             }
         }

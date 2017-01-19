@@ -10,7 +10,7 @@ import java.util.List;
  * Created by CH on 2016/10/25.
  */
 public abstract class BaseSingleSqlParser {
-	public SQLObject sqlObjectObj = new SQLObject();
+	protected SQLObject sqlObjectObj = new SQLObject();
 	/** *//**
 	 　* 处理后的Sql语句
 	 　*/
@@ -19,8 +19,10 @@ public abstract class BaseSingleSqlParser {
 	　* 原始Sql语句
 	　*/
 	protected String originalSql;
-	/** *//**
+
+	/**
 	　* Sql语句片段
+
 	　*/
 	protected List<SqlSegment> segments =new ArrayList<SqlSegment>();
 	/** *//**
@@ -42,7 +44,7 @@ public abstract class BaseSingleSqlParser {
 	　* 将originalSql劈分成一个个片段
 	　*
 	　*/
-	public SQLObject getSQLObj() {
+	public SQLObject getDealResult() {
 	    //每个不同的SqlParser都有自己的segements，用来将sql语句分片，利用正则表达式
 		for(SqlSegment sqlSegment:segments) {
 	    	//每个sqlSegment就是一个正则表达式，该函数就是将所需要处理的部分划分为三片，传入this是为了能够在SqlSegment.parse函数中处理每个不同的SqlParser的Deal函数

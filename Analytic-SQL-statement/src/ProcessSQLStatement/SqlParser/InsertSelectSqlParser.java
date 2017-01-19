@@ -56,7 +56,7 @@ public class InsertSelectSqlParser extends BaseSingleSqlParser {
 				processedSql = processedSql.replaceAll("insert into","");
 				if(sqlObjectObj.next != null){
 					//再次分析时，从select开始，形成的SQL对象放入原对象的sqlObj.next中
-					sqlObjectObj.next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql).getSQLObj());
+					sqlObjectObj.next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql).getDealResult());
 				}
 			}
 		}

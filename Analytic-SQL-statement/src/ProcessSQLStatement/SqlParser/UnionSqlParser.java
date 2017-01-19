@@ -29,14 +29,14 @@ public class UnionSqlParser extends BaseSingleSqlParser {
         if(body != null && body.equals("union all")){
             this.sqlObjectObj.setTypeName("union all");
             ArrayList<SQLObject> next = new ArrayList<>();
-            next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql.split("union all")[0]+";").getSQLObj());
-            next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql.split("union all")[1]).getSQLObj());
+            next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql.split("union all")[0]+";").getDealResult());
+            next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql.split("union all")[1]).getDealResult());
             this.sqlObjectObj.setNext(next);
         }else if(body != null && body.equals("union")){
             this.sqlObjectObj.setTypeName("union");
             ArrayList<SQLObject> next = new ArrayList<>();
-            next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql.split("union")[0]+";").getSQLObj());
-            next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql.split("union")[1]).getSQLObj());
+            next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql.split("union")[0]+";").getDealResult());
+            next.add(SingleSqlParserFactory.generateParser(originalSql,processedSql.split("union")[1]).getDealResult());
             this.sqlObjectObj.setNext(next);
         }
     }
