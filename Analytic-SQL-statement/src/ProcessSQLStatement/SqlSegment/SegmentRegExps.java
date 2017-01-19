@@ -65,7 +65,7 @@ public class SegmentRegExps {
     };
     //InsertSelectSqlParser的正则分片表达式
     public static String[] insertSelectRegExps = {
-            "(insert into)(.+)(select)",
+            "(insert into)(.+)(select)",//EXP:insert into b(a, b, c) select d,e,f from b;
     };
     //InsertSqlParser的正则分片表达式
     public static String[] insertRegExps = {

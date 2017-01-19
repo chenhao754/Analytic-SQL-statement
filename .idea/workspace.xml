@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6498e122-675d-491f-88c0-76f77cfe9fbf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SQLObject.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SQLObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/AlterSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/AlterSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSelectSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSelectSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DeleteSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DeleteSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DropSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DropSqlParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SelectSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SelectSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UpdateSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UpdateSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserUtil.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserAfter/ClearSQL.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserAfter/ClearSQL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java" />
     </list>
     <ignored path="Analytic-SQL-statement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,12 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseSingleSqlParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseSingleSqlParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1782">
+            <state relative-caret-position="1825">
               <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,10 +44,12 @@
       <file leaf-file-name="UpdateSqlParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UpdateSqlParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="525">
               <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#504#505#0" expanded="false" />
+                <element signature="e#543#544#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -66,10 +58,12 @@
       <file leaf-file-name="SelectSqlParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SelectSqlParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="550">
               <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#504#505#0" expanded="false" />
+                <element signature="e#543#544#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,21 +72,43 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="297">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertSqlParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSqlParser.java">
+      <file leaf-file-name="SqlParserUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="825">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClearSQL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserAfter/ClearSQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SQLObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,9 +116,25 @@
       <file leaf-file-name="InsertSelectSqlParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="1150">
+              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#568#569#0" expanded="false" />
+                <element signature="e#607#608#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SegmentRegExps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,46 +142,13 @@
       <file leaf-file-name="SqlSegment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="1000">
               <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
               <folding>
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#578#579#0" expanded="false" />
+                <element signature="e#620#621#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DropSqlParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DropSqlParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteSqlParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DeleteSqlParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateSqlParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSqlParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -185,23 +184,23 @@
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SingleSqlParserFactory.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java" />
-        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserAfter/ClearSQL.java" />
-        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserUtil.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SQLObject.java" />
-        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/AlterSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSelectSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DeleteSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DropSqlParser.java" />
-        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SelectSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UpdateSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java" />
+        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java" />
+        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java" />
+        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java" />
+        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserAfter/ClearSQL.java" />
       </list>
     </option>
   </component>
@@ -221,7 +220,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -250,7 +249,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -378,6 +376,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,7 +385,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../manageplatform" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -886,6 +885,8 @@
       <workItem from="1481000669912" duration="2168000" />
       <workItem from="1484616344243" duration="2357000" />
       <workItem from="1484702481615" duration="2332000" />
+      <workItem from="1484708337263" duration="3026000" />
+      <workItem from="1484788525215" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="Java语言开发，用来解析SQL语句。即通过正则表达式分析SQL语句，得到SQL语句中的各个部分。&#10;暂时只能处理嵌套语句，并且可能会有很多bug，希望大家不吝赐教。">
       <created>1480992405658</created>
@@ -898,37 +899,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9739000" />
+    <option name="totallyTimeSpent" value="13389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.018003274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4893617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -961,7 +962,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +995,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,8 +1006,9 @@
         <state relative-caret-position="1500">
           <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1036,7 +1041,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,7 +1051,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1084,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,8 +1095,9 @@
         <state relative-caret-position="1500">
           <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1119,7 +1130,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,7 +1140,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1173,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,8 +1184,9 @@
         <state relative-caret-position="1500">
           <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1212,15 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,57 +1237,6 @@
         <state relative-caret-position="1037">
           <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserAfter/ClearSQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SQLObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-642">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="107" column="12" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1301,7 +1258,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSqlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="600">
           <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           <folding />
         </state>
@@ -1309,86 +1266,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DeleteSqlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="550">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DropSqlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="550">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSqlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="525">
           <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SelectSqlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="550">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UpdateSqlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="525">
           <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
+        <state relative-caret-position="1825">
           <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserAfter/ClearSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SQLObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

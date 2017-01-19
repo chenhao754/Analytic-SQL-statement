@@ -44,12 +44,11 @@ public class InsertSelectSqlParser extends BaseSingleSqlParser {
 				}
 				if (sqlObjectObj.tableName == null) {
 					//通过空格分隔body，获得表名
-					sqlObjectObj.tableName = getOriSql(originalSql,body.split(" ")[0]);
+					sqlObjectObj.tableName = getOriSql(originalSql,body.split("\\(")[0]);
 				}
 				if(sqlObjectObj.field == null){
 					//通过空格分隔body，获得字段名
-					String fields = body.split(" ")[1];
-					fields = fields.replaceAll("\\(","");
+					String fields = body.split("\\(")[1];
 					fields = fields.replaceAll("\\)","");
 					sqlObjectObj.field = getOriSql(originalSql,fields);;
 				}

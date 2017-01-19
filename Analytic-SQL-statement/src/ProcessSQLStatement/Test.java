@@ -19,7 +19,7 @@ public class Test {
 	       //test=test.replaceAll("\\s{1,}", " ");
 	       //System.out.println(test);
 	       //程序的入口
-			String testSql= "select FieldA,field from TableName,table";	//需要解析的sql语句
+			String testSql= "select a.title,a.username,b.adddate from table a,(select max(adddate) adddate from table where table.title=a.title) b";	//需要解析的sql语句
 			SqlParserUtil test=new SqlParserUtil();	//SQL语句解析工具类
 	        SQLObject sqlObjectObj = test.getParsedSql(testSql);	//得到解析SQL语句后的类型对象
 	        sqlObjectObj.PrintToString();	//打印出来
