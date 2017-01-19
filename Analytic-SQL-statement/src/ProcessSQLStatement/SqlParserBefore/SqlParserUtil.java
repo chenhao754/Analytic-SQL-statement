@@ -9,10 +9,6 @@ import java.util.regex.Pattern;
  * Created by CH on 2016/10/25.
  */
 public class SqlParserUtil {
-    public static void main(String[] args) {
-        String testSql= " select  FieldA, field from TableName , table";	//需要解析的sql语句
-        new SqlParserUtil().ArrangeSql(testSql);
-    }
     /**
      *整理SQL语句
      */

@@ -124,9 +124,9 @@ public class Layer {
         if(sqlObjectObj.condition != null){
             if(sqlObjectObj.condition.get(type) != null){ //判断所要解密的条件是否为空
                 for(BigInteger s : temp ){  //遍历字典
-                    if(sqlObjectObj.condition.get(type).contains(s.toString())){ //如果条件语句中包含有加密字段
+                    if(sqlObjectObj.condition.get(type).toString().contains(s.toString())){ //如果条件语句中包含有加密字段
                         String decrypttemp = decrypt(s);    //解密
-                        sqlObjectObj.condition.put(type, sqlObjectObj.condition.get(type).replace(s.toString(),decrypttemp));   //将解密语句替换加密语句
+                        sqlObjectObj.condition.put(type, sqlObjectObj.condition.get(type).toString().replace(s.toString(),decrypttemp));   //将解密语句替换加密语句
                     }
                 }
             }
