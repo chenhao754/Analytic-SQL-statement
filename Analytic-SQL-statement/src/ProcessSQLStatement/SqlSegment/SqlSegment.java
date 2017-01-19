@@ -32,7 +32,7 @@ public class SqlSegment {
 	　* 从sql中查找符合segmentRegExp的部分，并赋值到start,body,end等三个属性中
 	　* @param sql
 	　*/
-	public void parse(String sql,BaseSingleSqlParser sqlParse){
+	public void parse(String sql,BaseSingleSqlParser baseSingleSqlParser){
 	    Pattern pattern=Pattern.compile(segmentRegExp,Pattern.CASE_INSENSITIVE);
 	    for(int i=0;i<=sql.length();i++)
 	    {
@@ -45,7 +45,7 @@ public class SqlSegment {
 	         String start = matcher.group(1);	//SQL正则表达式分片头部分
 	         String body = matcher.group(2);	//SQL正则表达式分片中间部分
 	         String end = matcher.group(3);		//SQL正则表达式分片尾部分
-	         sqlParse.Deal(start, body, end);	//处理SQL正则表达式分片后的结构
+	         baseSingleSqlParser.Deal(start, body, end);	//处理SQL正则表达式分片后的结构
 	         return;
 	     }
 	    }

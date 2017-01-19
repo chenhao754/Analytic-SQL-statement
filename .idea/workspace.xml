@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6498e122-675d-491f-88c0-76f77cfe9fbf" name="Default" comment="Java语言开发，用来解析SQL语句。即通过正则表达式分析SQL语句，得到SQL语句中的各个部分。&#10;暂时只能处理嵌套语句，并且可能会有很多bug，希望大家不吝赐教。">
+    <list default="true" id="6498e122-675d-491f-88c0-76f77cfe9fbf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSelectSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSelectSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UnionSqlParser.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UnionSqlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java" afterPath="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java" />
     </list>
     <ignored path="Analytic-SQL-statement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,6 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BaseSingleSqlParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ClearSQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserAfter/ClearSQL.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
@@ -95,18 +101,8 @@
       <file leaf-file-name="Layer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="50" column="93" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DropSqlParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/DropSqlParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="469">
+              <caret line="50" column="72" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -122,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SqlSegment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SqlSegment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -170,7 +166,6 @@
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SelectSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UpdateSqlParser.java" />
-        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SegmentRegExps.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SingleSqlParserFactory.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/Test.java" />
@@ -181,6 +176,7 @@
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/InsertSelectSqlParser.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java" />
         <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/UnionSqlParser.java" />
+        <option value="$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java" />
       </list>
     </option>
   </component>
@@ -892,7 +888,7 @@
       <workItem from="1484616344243" duration="2357000" />
       <workItem from="1484702481615" duration="2332000" />
       <workItem from="1484708337263" duration="3026000" />
-      <workItem from="1484788525215" duration="2726000" />
+      <workItem from="1484788525215" duration="2912000" />
     </task>
     <task id="LOCAL-00001" summary="Java语言开发，用来解析SQL语句。即通过正则表达式分析SQL语句，得到SQL语句中的各个部分。&#10;暂时只能处理嵌套语句，并且可能会有很多bug，希望大家不吝赐教。">
       <created>1480992405658</created>
@@ -915,11 +911,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484801920817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java语言开发，用来解析SQL语句。即通过正则表达式分析SQL语句，得到SQL语句中的各个部分。&#10;暂时只能处理嵌套语句，并且可能会有很多bug，希望大家不吝赐教。">
+      <created>1484802901470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484802901470</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15491000" />
+    <option name="totallyTimeSpent" value="15677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -933,7 +936,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2487725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2487725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -975,12 +978,6 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="4" />
@@ -1267,14 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/CreateSelectSqlParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -1323,22 +1312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="50" column="93" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1377,6 +1350,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParserBefore/Layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="50" column="72" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlParser/SqlParserAbstract/BaseSingleSqlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytic-SQL-statement/src/ProcessSQLStatement/SqlSegment/SqlSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding />
         </state>
       </provider>
